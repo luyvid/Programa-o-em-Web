@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de Usuários</h1>
+
+    <form>
+        *Nome de usuário: <input type="text" required> <br><br>
+        Data de Nascimento: <input type="date"> <br><br>
+        Senha de acesso: <input type="password" minlength="8"> <br><br>
+        Cor favorita: <input type="color"> <br><br>
+        *Email: <input type="email" required> <br><br>
+
+        Sexo: <br>
+        <input name="sexo" type="radio">Masculino <br>
+        <input name="sexo" type="radio">Feminino <br><br>
+
+        Habilitado?: <br>
+        <input name="cnh" type="radio">Sim <br>
+        <input name="cnh" type="radio">Não <br><br>
+        
+        Estado:
+        <select>
+            <option value="Acre">AC</option>
+            <option value="Amazonas">AM</option>
+            <option value="Bahia">BA</option>
+            <option value="Espirito Santo">ES</option>
+            <option value="Minas Gerais">MG</option>
+            <option value="São Paulo">SP</option>
+            <option value="Paraná">PR</option>
+        </select>
+
+        <br><br><input type="submit">
+    </form>
+</body>
+</html>

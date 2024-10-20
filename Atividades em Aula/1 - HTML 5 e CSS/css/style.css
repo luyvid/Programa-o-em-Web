@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/Planets2013-unlabeled.jpg);
+    background-image: url("../img/terra.png");
+    background-position: center;
+    background-size: auto;
+    /* 
+    centralizar a imagem
+    */
+}
+
+.cor_vermelho {
+    color: red;
+}
+
+.terra {
+    color:rgb(29, 207, 207);
+}
+
+p {
+    color:rgb(0, 255, 242);
+}

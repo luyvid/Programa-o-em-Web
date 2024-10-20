@@ -1,0 +1,21 @@
+body {
+    background-image: url("../img/fundoEstrelado.png");
+    background-size: 100vmax;
+}
+
+.divPai1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+div {
+    display: flex;
+    
+}

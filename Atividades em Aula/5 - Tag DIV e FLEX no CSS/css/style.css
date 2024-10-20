@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(0, 255, 255);
+}
+
+.div1 {
+    background-color: black;
+    color: white;
+}
+
+.div2 {
+    background-color: olive;
+}
+
+.div-pai {
+    display: flex;
+}
